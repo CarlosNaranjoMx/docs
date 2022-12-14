@@ -1,0 +1,1 @@
+- conseguir el pincel de degradado

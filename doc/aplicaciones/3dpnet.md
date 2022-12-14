@@ -1,0 +1,1 @@
+1. no confundirse con 3dp chip lite

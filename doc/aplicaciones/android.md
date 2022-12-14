@@ -1,0 +1,1 @@
+`directory`: storage/emulated/0
