@@ -27,3 +27,13 @@ npm install -g jhipster-generator
 ~~~
 sudo dpkg -i  jdk-17_linux-x64_bin.deb
 ~~~
+
+5. Agregar `JAVA_HOME`
+~~~
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+~~~
+
+6. Descargar e instalar maven, añadirlo al path
+~~~
+export PATH=/opt/apache-maven-3.8.6/bin:$PATH
+~~~
