@@ -93,3 +93,18 @@ services:
 `docker-compose ps`
 `docker-compose stop`
 `docker-compose rm -f`
+
+9. Correr el servicio de `keycloak`
+
+`docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:20.0.2 start-dev`
+
+10. Install `Postgresql`
+
+`sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'`
+`wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -`
+`sudo apt-get update`
+`sudo apt-get -y install postgresql`
+
+11. conectarse con el usuario posgres
+
+`sudo -u postgres psql`

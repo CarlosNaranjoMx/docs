@@ -2,6 +2,14 @@
 ~~~
 git add -A; git commit -m "Modificando readme";git push origin main
 ~~~
+- [./doc/lenguages/python/image_capture.md](./doc/lenguages/python/image_capture.md)
+- [./doc/aplicaciones/git/doc.md](./doc/aplicaciones/git/doc.md)
+- [./doc/aplicaciones/jhipster/classes.md](./doc/aplicaciones/jhipster/classes.md)
+- [./doc/aplicaciones/jhipster/doc.md](./doc/aplicaciones/jhipster/doc.md)
+
+- [./doc/lenguages/powershell/ejemplos.md](./doc/lenguages/powershell/ejemplos.md)
+- [./doc/lenguages/powershell/scripts.md](./doc/lenguages/powershell/scripts.md)
+
 - [./README.md](./README.md)
 - [./doc/issues.md](./doc/issues.md)
 - [./doc/issuesprogramacion.md](./doc/issuesprogramacion.md)
@@ -13,17 +21,11 @@ git add -A; git commit -m "Modificando readme";git push origin main
 - [./doc/aplicaciones/blender.md](./doc/aplicaciones/blender.md)
 - [./doc/aplicaciones/vim.md](./doc/aplicaciones/vim.md)
 - [./doc/aplicaciones/windows10.md](./doc/aplicaciones/windows10.md)
-- [./doc/aplicaciones/git/doc.md](./doc/aplicaciones/git/doc.md)
-- [./doc/aplicaciones/jhipster/classes.md](./doc/aplicaciones/jhipster/classes.md)
-- [./doc/aplicaciones/jhipster/doc.md](./doc/aplicaciones/jhipster/doc.md)
 - [./doc/aplicaciones/krita/krita.md](./doc/aplicaciones/krita/krita.md)
 - [./doc/comandos/com.ps1](./doc/comandos/com.ps1)
 - [./doc/lenguages/java/javafx.md](./doc/lenguages/java/javafx.md)
 - [./doc/lenguages/java/lambda.md](./doc/lenguages/java/lambda.md)
 - [./doc/lenguages/java/predicados.md](./doc/lenguages/java/predicados.md)
-- [./doc/lenguages/powershell/ejemplos.md](./doc/lenguages/powershell/ejemplos.md)
-- [./doc/lenguages/powershell/scripts.md](./doc/lenguages/powershell/scripts.md)
-- [./doc/lenguages/python/image_capture.md](./doc/lenguages/python/image_capture.md)
 - [./doc/lenguages/shell/shell.md](./doc/lenguages/shell/shell.md)
 - [./doc/materias/ingles.md](./doc/materias/ingles.md)
 - [./doc/materias/concurrentes/exclusion/exclusion.md](./doc/materias/concurrentes/exclusion/exclusion.md)
