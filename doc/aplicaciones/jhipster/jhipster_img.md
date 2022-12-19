@@ -1,0 +1,5 @@
+![0_jhipster_instalation.png](img/0_jhipster_instalation.png)
+![1_jhipster_instalation.png](img/1_jhipster_instalation.png)
+![2_jhipster_instalation.png](img/2_jhipster_instalation.png)
+![3_jhipster_instalation.png](img/3_jhipster_instalation.png)
+![4_webpack.png](img/4_webpack.png)
