@@ -3,6 +3,11 @@
 - [Diseño de la aplicación](#diseño-de-la-aplicación)
 - [Framework](#framework)
 - [Autenticacion](#autenticacion)
+- [Okta](#okta)
+- [Keycloak](#keycloak)
+- [Datos en memoria](#datos-en-memoria)
+- [Docker](#docker)
+- [Motores de busqueda de base de datos](#motores-de-busqueda-de-base-de-datos)
 
 ## Diseño de la aplicación
 
@@ -85,7 +90,7 @@ cuales son sus diferencias
     - La facilidad de uso.
 
 ## Docker
-Docker es un comando o una orden que se usa para poder empezar o ayudar a subir a las computadores una application web.
+Docker es un comando o una orden que se usa para poder empezar o ayudar a subir a las coontenedores una application web.
 
 Mientras que 'docker-compose' es un 'command' o una orden que se usa para poder empezar o hacer correr los servicios web que están dentro de un texto 'yml', así se puede subir la application web a una computadora.
 
