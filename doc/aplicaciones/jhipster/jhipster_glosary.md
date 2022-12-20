@@ -1,10 +1,10 @@
 # Jhipster
 
-- [Diseño de la aplicacion](##Diseño)
-- [Framework](##Framework)
-- [Autenticacion](##Autenticacion)
+- [Diseño de la aplicación](#diseño-de-la-aplicación)
+- [Framework](#framework)
+- [Autenticacion](#autenticacion)
 
-## Diseño
+## Diseño de la aplicación
 
 Con la opción de 'monolith' se puede usar JHipster para diseñar una única
 application web que en su designación pueda tener una única base de datos.
