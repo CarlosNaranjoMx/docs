@@ -1,5 +1,22 @@
 # Jhipster
 
+- [Diseño de la aplicacion](##Diseño)
+- [Framework](##Framework)
+- [Autenticacion](##Autenticacion)
+
+## Diseño
+
+Con la opción de 'monolith' se puede usar JHipster para diseñar una única
+application web que en su designación pueda tener una única base de datos.
+
+El 'gateway' se usa para conectar una application web con alguna otra
+application web, y se usa para poder hacer un sistema que tenga más de un
+application web, pero que todo funcione como una única `application web`.
+
+Mientras que con el 'microservice' podes hacer más de una application web y
+tener más de una base de datos pero que funcione como un `servicio web`.
+
+
 ## Framework
 
 - spring
@@ -66,6 +83,11 @@ cuales son sus diferencias
     - La performance por key/value.
 
     - La facilidad de uso.
+
+## Docker
+Docker es un comando o una orden que se usa para poder empezar o ayudar a subir a las computadores una application web.
+
+Mientras que 'docker-compose' es un 'command' o una orden que se usa para poder empezar o hacer correr los servicios web que están dentro de un texto 'yml', así se puede subir la application web a una computadora.
 
 ## Motores de busqueda de base de datos    
 
