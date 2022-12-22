@@ -127,4 +127,20 @@ private String paisNacimiento;
     "fieldType": "String"
 }
 ```
+- DIRECTORIO: `src/main/webapp/i18n/en`
+- ARCHIVO: `/pets.json`
+
+```json
+},
+      "id": "Id",
+      "name": "Name",
+      "birthname": "Birthname",
+      "typeid": "Typeid",
+      "ownerid": "Ownerid",
+      "types": "Types",
+      "owners": "Owners",
+      "visits": "Visits",
+      "paisNacimiento": "paisNacimiento"
+    }
+```
 
