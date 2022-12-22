@@ -8,6 +8,62 @@
 - [Datos en memoria](#datos-en-memoria)
 - [Docker](#docker)
 - [Motores de busqueda de base de datos](#motores-de-busqueda-de-base-de-datos)
+- [dto](#dto)
+- [jpa](#jpa)
+- [directorios](#directorios)
+- [transpilador](#transpilador)
+- [programacion-reactiva](#programacion-reactiva)
+- [string-filter](#string-filter)
+
+## string-filter
+'StringFilter' se puede usar para que se pueda 'limpiar' o que se pueda cambiar los 'caracteres' de un 'string' de texto se pueda usar dentro de una 'class' de una application web.
+
+Para que solo admita los caracteres validos dentro de una
+aplicación web.
+
+Este se puede usar como se puede usar una 'class' para que se pueda tener 'limpiado' el 'string' de texto.
+
+## programacion-reactiva
+
+'Reactive programming' es un tipo de programación que se usa para que se pueda
+hacer una application web que se pueda usar en tiempo real, este tipo de
+programación se puede usar junto con un 'frontend' y un 'back-end' que se pueda
+usar en la 'web-app'.
+
+Una example de 'Reactive programming' se puede ver en 'Angular' se puede usar
+para que se pueda hacer una application web con 'TypeScript' para que se pueda
+hacer una application web que tenga una serie de 'events' que tengan una orden
+de que se puedan usar dentro de una application web.
+
+## transpilador
+Un transpilador es algo que se puede usar para que se pueda pasar de una
+programacion programada en un lenguaje a otra que se pueda usar en otro
+lenguaje.
+
+Por ejemplo, si una persona quiere usar 'TypeScript' para programar una
+application, pues se puede usar para que se pueda usar el código como que está
+programado usando 'JavaScript' en 'JavaScript'.
+
+## directorios
+- `/home/psycho/web/linuxmint_jhipster/src/main/webapp/app/app.component.ts`
+- web: `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/web/rest/VetsResource.java`
+- domain: `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/domain/Vets.java`
+- config: `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/config/CacheConfiguration.java`
+- `/home/psycho/web/linuxmint_jhipster/.jhipster/Vets.json`
+
+## jpa
+JPA es la abreviatura de 'Java Persistence API' que se puede usar en 'Java' y se
+puede usar con 'Spring Boot' para se pueda hacer una base de datos en 'SQL' y
+poder usarlo dentro de una application web para hacer una base de datos dentro
+del 'spring boot'.
+
+## dto
+'dto' se puede entender como 'datasource to object' y se puede usar en 'angular'
+para poder hacer que la 'application web' se pueda conectar con lo que son las
+'datasets' o los 'datos que se puedan hacer en una application web.
+
+### conexion con los data sets
+
 
 ## Diseño de la aplicación
 
