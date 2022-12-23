@@ -144,3 +144,21 @@ private String paisNacimiento;
     }
 ```
 
+- ARCHIVO: `/home/psycho/web/linuxmint_jhipster/src/main/resources/config/liquibase/changelog/20221219192500_added_entity_Pets.xml`
+```xml
+<column name="paisNacimiento" type="varchar(255)">
+    <constraints nullable="true">
+</column>
+```
+
+
+- DIRECTORIO: `domain`
+- ARCHIVO: `Types.java`
+
+```java
+
+    @ManyToOne
+    @JsonIgnoreProperties(value = { "types", "owners", "visits","paisNacimiento" }, allowSetters = true)
+    
+```
+
