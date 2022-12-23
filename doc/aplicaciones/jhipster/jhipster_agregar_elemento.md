@@ -151,6 +151,19 @@ private String paisNacimiento;
 </column>
 ```
 
+- ARCHIVO:
+`/home/psycho/web/linuxmint_jhipster/src/main/webapp/app/entities/pets/pets-details.vue`
+
+```vue
+<dt>
+            <span v-text="$t('proyecto01App.pets.paisNacimiento')">paisNacimiento</span>
+          </dt>
+          <dd>
+            <span>{{ pets.paisNacimiento }}</span>
+          </dd>
+```
+
+
 
 - DIRECTORIO: `domain`
 - ARCHIVO: `Types.java`
