@@ -163,6 +163,19 @@ private String paisNacimiento;
           </dd>
 ```
 
+- ARCHIVO: `/home/psycho/web/linuxmint_jhipster/src/main/webapp/app/entities/pets/pets-update.component.ts`
+
+```ts
+const validations: any = {
+  pets: {
+    name: {},
+    birthname: {},
+    typeid: {},
+    ownerid: {},
+    paisNacimiento: {},
+  },
+};
+```
 
 
 - DIRECTORIO: `domain`
