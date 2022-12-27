@@ -1,3 +1,5 @@
+- [instalation-steps](#instalation-steps)
+
 | |version|
 |---|---|
 |nvm|0.31.3|
@@ -8,7 +10,7 @@
 |Client: Docker Engine|20.10.22|
 |Docker Compose|v2.14.1|
 
-# Steps
+## instalation-steps
 
 1. Install nvm
 ~~~

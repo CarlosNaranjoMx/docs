@@ -1,3 +1,6 @@
+- [front-end](#front-end)
+- [petsdto-java](#petsdto-java)
+
 # Patron de diseño IoC
 
 El patrón de diseño IoC es una solución para el problema de la dependencia de software y la complexidad se debe al hecho de que los diferentes components de software se interconectan de muchas formas diferentes.
@@ -8,8 +11,8 @@ IoC ayuda a evitar esta complejidad y este problema de interconexión al permiti
 que los componentes de softwares se
 conecten a través de las interfaces y no a través de la conexión directa
 
-
-- En el archivo `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/service/dto/PetsDTO.java`, 
+## petsdto-java
+- En el archivo `src/main/java/mx/conacyt/crip/ejemplos/service/dto/PetsDTO.java`, 
 - directorio `service/dto`:
 crear los metodos get, set y modificar la instancia de toString
 
@@ -48,7 +51,7 @@ crear los metodos get, set y modificar la instancia de toString
 operaciones de autenticacion, usar
 los controladores y el frontend
 
-- crear stters y getters de los string filters tambien
+- crear setters y getters de los string filters tambien
 
 ```java
     public StringFilter getPaisNacimiento(){
@@ -118,6 +121,11 @@ private String paisNacimiento;
 ```
 
 
+
+
+# front-end
+
+
 - DIRECTORIO: `.jhipster/Pets.json`
 - ARCHIVO: `Pets.json`
 
@@ -144,26 +152,58 @@ private String paisNacimiento;
     }
 ```
 
-- ARCHIVO: `/home/psycho/web/linuxmint_jhipster/src/main/resources/config/liquibase/changelog/20221219192500_added_entity_Pets.xml`
+- ARCHIVO: `src/main/resources/config/liquibase/changelog/20221219192500_added_entity_Pets.xml`
 ```xml
 <column name="paisNacimiento" type="varchar(255)">
     <constraints nullable="true">
 </column>
 ```
 
-- ARCHIVO:
-`/home/psycho/web/linuxmint_jhipster/src/main/webapp/app/entities/pets/pets-details.vue`
-
-```vue
-<dt>
-            <span v-text="$t('proyecto01App.pets.paisNacimiento')">paisNacimiento</span>
-          </dt>
-          <dd>
-            <span>{{ pets.paisNacimiento }}</span>
-          </dd>
+- ARCHIVO: `src/main/webapp/app/entities/pets/pets.vue`
+```html
+<th scope="row" v-on:click="changeOrder('paisNacimiento')">
+    <span v-text="$t('proyecto01App.pets.paisNacimiento')"> Pais Nacimiento </span>
+    <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'paisNacimiento'"></jhi-sort-indicator>
+</th>
 ```
 
-- ARCHIVO: `/home/psycho/web/linuxmint_jhipster/src/main/webapp/app/entities/pets/pets-update.component.ts`
+```html
+<td>{{ pets.name }}</td>
+<td>{{ pets.birthname }}</td>
+<td>{{ pets.typeid }}</td>
+<td>{{ pets.ownerid }}</td>
+<td>{{ pets.paisNacimiento }}</td>
+```
+
+- ARCHIVO:
+`src/main/webapp/app/entities/pets/pets-details.vue`
+
+```html
+<div class="form-group">
+    <label class="form-control-label" v-text="$t('proyecto01App.pets.paisNacimiento')" for="pets-paisNacimiento">Pais Nacimiento</label>
+    <input
+        type="number"
+        class="form-control"
+        name="paisNacimiento"
+        id="pets-paisNacimiento"
+        data-cy="paisNacimiento"
+        :class="{ valid: !$v.pets.paisNacimiento.$invalid, invalid: $v.pets.paisNacimiento.$invalid }"
+        v-model.number="$v.pets.paisNacimiento.$model"
+    />
+</div>
+```
+
+```html
+<dt>
+    <span v-text="$t('proyecto01App.pets.paisNacimiento')">paisNacimiento</span>
+</dt>
+<dd>
+    <span>{{ pets.paisNacimiento }}</span>
+</dd>
+```
+
+
+- ARCHIVO: `src/main/webapp/app/entities/pets/pets-update.component.ts`
 
 ```ts
 const validations: any = {
