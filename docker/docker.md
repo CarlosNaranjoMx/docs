@@ -2,7 +2,7 @@
 
 `docker run --name pg-docker -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=hola123., -e POSTGRES_DB=postgres -d -p 5432:5432 postgres`
 
-`docker run --name <nombre> jhipster/jhipster`
-`docker exec -it jhipster sh`
+`docker run --name <nombre> jhipster/jhipster -d`
+`docker exec -it <nombre> sh`
 
 `docker rm 5d1b067fea4b`
