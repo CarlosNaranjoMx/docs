@@ -6,3 +6,8 @@
 `docker exec -it <nombre> sh`
 
 `docker rm 5d1b067fea4b`
+
+` docker run --name keycloak -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin -p 11111:11111 jboss/keycloak -Djboss.http.port=11111`
+
+## puertos de servicios
+- [keycloak](http://localhost:11111)
