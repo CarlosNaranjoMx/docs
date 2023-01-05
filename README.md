@@ -2,11 +2,13 @@
 ~~~
 git add -A; git commit -m "Modificando readme";git push origin main
 ~~~
+- [aplicaciones/jhipster/doc.md](app_jhipster)
+- [docs/app_jhipster/jhipster_agregar_elemento.md](docs/app_jhipster/jhipster_agregar_elemento.md)
+
 - [programacion/hackerrank/hackerrank_python.md](programacion/hackerrank/hackerrank_python.md)
 - [lenguages/python/image_capture.md](lenguages/python/image_capture.md)
 - [aplicaciones/git/doc.md](aplicaciones/git/doc.md)
 - [aplicaciones/jhipster/classes.md](aplicaciones/jhipster/classes.md)
-- [aplicaciones/jhipster/doc.md](aplicaciones/jhipster/doc.md)
 
 - [lenguages/powershell/ejemplos.md](lenguages/powershell/ejemplos.md)
 - [lenguages/powershell/scripts.md](lenguages/powershell/scripts.md)
