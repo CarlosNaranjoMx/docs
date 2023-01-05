@@ -1,11 +1,15 @@
+- [patron-de-diseño-ioc](#patron-de-diseño-ioc)
+- [back-end](back-end)
+    - [petsdto-java](#petsdto-java)
 - [front-end](#front-end)
-- [petsdto-java](#petsdto-java)
 
-# Patron de diseño IoC
+# patron-de-diseño-ioc
 
 El patrón de diseño IoC es una solución para el problema de la dependencia de software y la complexidad se debe al hecho de que los diferentes components de software se interconectan de muchas formas diferentes.
 
 IoC ayuda a evitar esta complejidad y este problema de interconexión al permitir que los componentes de software se conecten a través de interfaces y no a través de la conexión directa entre los dos components que se estan conectando entre sí.
+
+# back-end
 
 - ayuda a evitar la complejidad de las interconexiones, permite
 que los componentes de softwares se
