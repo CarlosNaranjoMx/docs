@@ -1,3 +1,3 @@
-[actividad06](actividad06.md/indice.md)
-[indice](indice.md/indice.md)
-[monologo](monologo.md/indice.md)
+- [actividad06](actividad06.md/indice.md)
+- [indice](indice.md/indice.md)
+- [monologo](monologo.md/indice.md)
