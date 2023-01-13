@@ -1,1 +1,1 @@
-- [indice](indice.md/indice.md)
+- [indice](indice.md)

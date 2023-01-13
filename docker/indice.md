@@ -1,2 +1,2 @@
-- [docker](docker.md/indice.md)
-- [indice](indice.md/indice.md)
+- [docker](docker.md)
+- [indice](indice.md)

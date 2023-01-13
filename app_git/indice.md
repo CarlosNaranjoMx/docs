@@ -1,2 +1,2 @@
-- [doc](doc.md/indice.md)
-- [indice](indice.md/indice.md)
+- [doc](doc.md)
+- [indice](indice.md)

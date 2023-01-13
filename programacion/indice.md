@@ -1,2 +1,2 @@
-- [indice](indice.md/indice.md)
-- [programacion](programacion.md/indice.md)
+- [indice](indice.md)
+- [programacion](programacion.md)

@@ -1,2 +1,2 @@
-- [image_capture](image_capture.md/indice.md)
-- [indice](indice.md/indice.md)
+- [image_capture](image_capture.md)
+- [indice](indice.md)

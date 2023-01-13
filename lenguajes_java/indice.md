@@ -1,4 +1,4 @@
-- [indice](indice.md/indice.md)
-- [javafx](javafx.md/indice.md)
-- [lambda](lambda.md/indice.md)
-- [predicados](predicados.md/indice.md)
+- [indice](indice.md)
+- [javafx](javafx.md)
+- [lambda](lambda.md)
+- [predicados](predicados.md)

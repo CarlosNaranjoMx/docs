@@ -1,2 +1,2 @@
-- [indice](indice.md/indice.md)
-- [shell](shell/indice.md)
+- [indice](indice.md)
+- [shell](shell)
