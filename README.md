@@ -2,7 +2,6 @@
 ~~~
 git add -A; git commit -m "Modificando readme";git push origin main
 ~~~
-[.git](.git/indice.md)
 [aplicaciones](aplicaciones/indice.md)
 [app_flex](app_flex/indice.md)
 [app_git](app_git/indice.md)
