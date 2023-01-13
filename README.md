@@ -2,10 +2,10 @@
 ~~~
 git add -A; git commit -m "Modificando readme";git push origin main
 ~~~
-- [aplicaciones/jhipster/doc.md](app_jhipster)
-- [docs/app_jhipster/jhipster_agregar_elemento.md](docs/app_jhipster/jhipster_agregar_elemento.md)
+## [Jhipster Documentación](app_jhipster/jhipster.md)
+## [Jhipster Flujo de Trabajo](app_jhipster/jhipster_agregar_elemento.md)
 
-- [programacion/hackerrank/hackerrank_python.md](programacion/hackerrank/hackerrank_python.md)
+## [Hacker Rank Python](programacion/hackerrank/hackerrank_python.md)
 - [lenguages/python/image_capture.md](lenguages/python/image_capture.md)
 - [aplicaciones/git/doc.md](aplicaciones/git/doc.md)
 - [aplicaciones/jhipster/classes.md](aplicaciones/jhipster/classes.md)
