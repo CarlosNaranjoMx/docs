@@ -16,12 +16,14 @@
 - [string-filter](#string-filter)
 
 ## string-filter
-'StringFilter' se puede usar para que se pueda 'limpiar' o que se pueda cambiar los 'caracteres' de un 'string' de texto se pueda usar dentro de una 'class' de una application web.
+'StringFilter' se puede usar para que se pueda 'limpiar' o que se pueda cambiar
+los 'caracteres' de un 'string' de texto se pueda usar dentro de una 'class' de
+una application web.
 
-Para que solo admita los caracteres validos dentro de una
-aplicación web.
+Para que solo admita los caracteres validos dentro de una aplicación web.
 
-Este se puede usar como se puede usar una 'class' para que se pueda tener 'limpiado' el 'string' de texto.
+Este se puede usar como se puede usar una 'class' para que se pueda tener
+'limpiado' el 'string' de texto.
 
 ## programacion-reactiva
 
@@ -46,9 +48,12 @@ programado usando 'JavaScript' en 'JavaScript'.
 
 ## directorios
 - `/home/psycho/web/linuxmint_jhipster/src/main/webapp/app/app.component.ts`
-- web: `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/web/rest/VetsResource.java`
-- domain: `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/domain/Vets.java`
-- config: `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/config/CacheConfiguration.java`
+- web:
+  `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/web/rest/VetsResource.java`
+- domain:
+  `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/domain/Vets.java`
+- config:
+  `/home/psycho/web/linuxmint_jhipster/src/main/java/mx/conacyt/crip/ejemplos/config/CacheConfiguration.java`
 - `/home/psycho/web/linuxmint_jhipster/.jhipster/Vets.json`
 
 ## jpa
@@ -91,8 +96,8 @@ JPA es un framework o una librería de código que se usa para poder hacer una
 connection a una base de dados como puede ser una base de datos MySql o una base
 de datos SQL Server.
 
-JPA se usa para hacer una coneción a una base de datos y para cargar datos a
-la application web o al servicio web que va a estar usando JPA.
+JPA se usa para hacer una coneción a una base de datos y para cargar datos a la
+application web o al servicio web que va a estar usando JPA.
 
 ## Autenticacion
 
@@ -130,10 +135,12 @@ para poder hacerlo se usan tokens de acceso.
 
 ## Datos en memoria
 
-- Que son ehcache, caffeine, hazelcast, infinispan, memcached, redis, 
-cuales son sus diferencias
+- Que son ehcache, caffeine, hazelcast, infinispan, memcached, redis, cuales son
+sus diferencias
 
-    Ehcache, Caffeine, Hazelcast, Infinispan, MemCached, Redis, son librerías o Framework que se usan para guardar datos en la memoria y trabajar con las data guardadas.
+    Ehcache, Caffeine, Hazelcast, Infinispan, MemCached, Redis, son librerías o
+    Framework que se usan para guardar datos en la memoria y trabajar con las
+    data guardadas.
 
     Las diferencia entre ellas son:
 
@@ -146,13 +153,17 @@ cuales son sus diferencias
     - La facilidad de uso.
 
 ## Docker
-Docker es un comando o una orden que se usa para poder empezar o ayudar a subir a las coontenedores una application web.
+Docker es un comando o una orden que se usa para poder empezar o ayudar a subir
+a las coontenedores una application web.
 
-Mientras que 'docker-compose' es un 'command' o una orden que se usa para poder empezar o hacer correr los servicios web que están dentro de un texto 'yml', así se puede subir la application web a una computadora.
+Mientras que 'docker-compose' es un 'command' o una orden que se usa para poder
+empezar o hacer correr los servicios web que están dentro de un texto 'yml', así
+se puede subir la application web a una computadora.
 
 ## Motores de busqueda de base de datos    
 
-- que son elasticsearch, apache kafka y openapi-generator cuales son sus diferencias
+- que son elasticsearch, apache kafka y openapi-generator cuales son sus
+  diferencias
 
     Elasticsearch es un motor de búsqueda para bases de datos, mientras que
     Apache Kafka es un motor de busqueda pero usado para mensajeria.
@@ -167,8 +178,11 @@ Mientras que 'docker-compose' es un 'command' o una orden que se usa para poder 
 
 - que son cypress,gatling y cucumber cuales son sus diferencias
 
-    - Cypress es una librería web para hacer pruebas de un website desde el punto de vista de un usuario.
+    - Cypress es una librería web para hacer pruebas de un website desde el
+      punto de vista de un usuario.
 
-    - EnGatling se usa como un framework web para encontrar fallas en código y apps web.
+    - EnGatling se usa como un framework web para encontrar fallas en código y
+      apps web.
 
-    - Cucumber es un framework web para automatizar las pruebas que se pueden hacer a un sistema web.
+    - Cucumber es un framework web para automatizar las pruebas que se pueden
+      hacer a un sistema web.
