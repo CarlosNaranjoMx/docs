@@ -2,6 +2,10 @@
 
 # comandos_shell
 
+
+~~~powershell
+~~~
+
   ## renombramiento.ps1.Name
 
 depende del directorio actual
@@ -10,6 +14,17 @@ recibe el nombre destino
  
 ~~~powershell
 get-location | % {$_.path}
+~~~
+
+## harcode move
+
+~~~powershell
+function hard_move {
+  $archivos = get-childitem
+  foreach ($archivo in $archivos) {
+    mv $archivo -destination ..
+  }
+}
 ~~~
 
 ## move_files.ps1.Name
