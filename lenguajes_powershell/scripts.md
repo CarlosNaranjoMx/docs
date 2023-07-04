@@ -27,6 +27,20 @@ recibe el nombre destino
 ~~~powershell
 get-location | % {$_.path}
 ~~~
+
+## move_files.ps1.Name
+~~~powershell
+$lista = get-childitem -recurse
+foreach ($item in $lista) {
+  cd $item;
+  $lista02 = get-childitem -recurse;
+  foreach ($item02 in $lista02) {
+    mv $item02 -destination ..
+  }
+  cd ..;
+}
+~~~
+
 ## renombramiento02.ps1.Name
 ~~~powershell
 param(
@@ -262,18 +276,7 @@ param (
 ~~~powershell
 new-item -itemtype symboliclink -path "C:\Users\cnaranjo\Programs" -target $($args[0]) -name $($args[1])
 ~~~
-## move_files.ps1.Name
-~~~powershell
-$lista = get-childitem -recurse
-foreach ($item in $lista) {
-  cd $item;
-  $lista02 = get-childitem -recurse;
-  foreach ($item02 in $lista02) {
-    mv $item02 -destination ..
-  }
-  cd ..;
-}
-~~~
+
 ## open.ps1.Name
 ~~~powershell
 [CmdletBinding()]
