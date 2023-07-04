@@ -19,6 +19,11 @@
 # comandos_shell
 
   ## renombramiento.ps1.Name
+
+depende del directorio actual
+
+recibe el nombre destino
+ 
 ~~~powershell
 get-location | % {$_.path}
 ~~~
@@ -26,12 +31,12 @@ get-location | % {$_.path}
 ~~~powershell
 param(
   [String]
-  $nombre
+  $destino
 )
 
 $list = get-childitem 
 foreach ($l in $list) {
-  rename-item $l -newname ($nombre+"_"+($l.name))
+  rename-item $l -newname ($destino+"_"+($l.name))
 }
 ~~~
 ## replace.ps1.Name
