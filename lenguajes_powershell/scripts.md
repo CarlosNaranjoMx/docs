@@ -43,14 +43,16 @@ foreach ($item in $lista) {
 
 ## renombramiento02.ps1.Name
 ~~~powershell
-param(
-  [String]
-  $nombre_nuevo
-)
+function act_newname {
+  param(
+    [String]
+    $nombre_nuevo
+  )
 
-$list = get-childitem 
-foreach ($l in $list) {
-  rename-item $l -newname ($nombre_nuevo+"_"+($l.name))
+  $list = get-childitem 
+  foreach ($l in $list) {
+    rename-item $l -newname ($nombre_nuevo+"_"+($l.name))
+  }
 }
 ~~~
 ## replace.ps1.Name
