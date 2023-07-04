@@ -16,7 +16,7 @@
   }
   ~~~
 
-# Comandos Shell
+# comandos_shell
 
   ## renombramiento.ps1.Name
 ~~~powershell
