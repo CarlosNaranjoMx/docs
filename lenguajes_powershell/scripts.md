@@ -1,5 +1,9 @@
+- [comandos_for](comandos_for)
+- [comandos_shell](comandos_shell)
+- [comandos_matriz](comandos_matriz)
+- [copmandos_servicios](comandos_servicios)
 
-# Comandos FOR 
+# comandos_for 
  
   ## recorrer diccionario
   ~~~powershell
@@ -74,7 +78,7 @@ foreach ($l in $list) {
   
    $a | % {  $_.Quit() }
   ~~~
-# Comandos Matriz
+# comandos_matriz
   ## compare_files_images.ps1.Name
   ~~~powershell
   function compare-images {
@@ -192,7 +196,7 @@ function copy-phone {
 }
 ~~~
 
-# Comandos Servicios
+# comandos_servicios
   ## electronapp.ps1.Name
   ~~~powershell
   function start-electron{
