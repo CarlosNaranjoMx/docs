@@ -31,12 +31,12 @@ get-location | % {$_.path}
 ~~~powershell
 param(
   [String]
-  $destino
+  $nombre_nuevo
 )
 
 $list = get-childitem 
 foreach ($l in $list) {
-  rename-item $l -newname ($destino+"_"+($l.name))
+  rename-item $l -newname ($nombre_nuevo+"_"+($l.name))
 }
 ~~~
 ## replace.ps1.Name
