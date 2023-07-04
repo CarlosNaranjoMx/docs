@@ -1,7 +1,7 @@
-- [comandos_for](comandos_for)
-- [comandos_shell](comandos_shell)
-- [comandos_matriz](comandos_matriz)
-- [copmandos_servicios](comandos_servicios)
+- [comandos_for](#comandos_for)
+- [comandos_shell](#comandos_shell)
+- [comandos_matriz](#comandos_matriz)
+- [copmandos_servicios](#comandos_servicios)
 
 # comandos_for 
  
