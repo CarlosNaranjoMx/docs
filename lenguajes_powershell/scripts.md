@@ -2,9 +2,8 @@
 - [comandos_matriz](#comandos_matriz)
 - [copmandos_servicios](#comandos_servicios)
 
-<div style="background-color: #f2f2f2; padding: 10px;">
-comandos_matriz
-</ div>
+# Comandos matriz
+
   ## compare_files_images.ps1.Name
   ~~~powershell
   function compare-images {
