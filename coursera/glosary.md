@@ -1,6 +1,12 @@
 A
 
 Analytical skills: Qualities and characteristics associated with using facts to solve problems
+- curiosity: Curiosity is all about wanting to learn something
+- understanding context: 
+- having a technical mindset: . A technical mindset involves the ability to break things down into smaller steps or pieces and work with them in an orderly and logical way. 
+- data design: Data design is how you organize information
+- data strategy: Data strategy is the management of the people, processes, and tools used in data analysis
+
 
 Analytical thinking: The process of identifying and defining a problem, then solving it by using data in an organized, step-by-step manner
 
