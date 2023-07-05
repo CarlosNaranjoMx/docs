@@ -79,17 +79,21 @@ function act_newname {
 ~~~
 ## replace.ps1.Name
 ~~~powershell
-param(
-  [String]
-  $nombre,
-  [String]
-  $nombre2
-)
 
-$list = get-childitem 
-foreach ($l in $list) {
-  rename-item $l -newname (($l.name).replace($nombre,$nombre2))
+function replace {
+  param(
+    [String]
+    $nombre,
+    [String]
+    $nombre2
+  )
+
+  $list = get-childitem 
+  foreach ($l in $list) {
+    rename-item $l -newname (($l.name).replace($nombre,$nombre2))
+  }
 }
+
 ~~~
 
   ## files.ps1.Name
