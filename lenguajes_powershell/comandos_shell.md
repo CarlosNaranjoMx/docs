@@ -6,6 +6,21 @@
 ~~~powershell
 ~~~
 
+## hardcode rename and move
+~~~powershell
+function hard_rename_move {
+  
+  $archivos = get-childitem
+  $dir_actual_nombre Split-Path -Path . -Leaf
+
+  foreach ($archivo in $archivos) {
+    rename-item $archivo -newname ($dir_actual_nombre+"_"+($archivo.name))
+  }
+
+
+}
+~~~
+
   ## renombramiento.ps1.Name
 
 depende del directorio actual
