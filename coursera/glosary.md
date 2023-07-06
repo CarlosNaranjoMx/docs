@@ -10,6 +10,12 @@ Analytical skills: Qualities and characteristics associated with using facts to 
 
 Analytical thinking: The process of identifying and defining a problem, then solving it by using data in an organized, step-by-step manner
 
+- visualization
+- strategy
+- problem-orientation
+- correlation
+- big-picture and detailed-oriented thinking
+
 Attribute: A characteristic or quality of data used to label a column in a table
 
 B
