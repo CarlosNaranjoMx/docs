@@ -37,10 +37,10 @@ the data analysis process phases are:
 - prepare
 - process
 - analyze
-- share
-- act.
+- share ⌂
+- act
 
-Data life cycle:
+Data life cycle: ∞
 - Generation
 - Collection
 - Storage
