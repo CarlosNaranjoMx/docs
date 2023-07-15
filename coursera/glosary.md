@@ -40,6 +40,15 @@ the data analysis process phases are:
 - share
 - act.
 
+Data life cycle:
+- Generation
+- Collection
+- Storage
+- Processing
+- Analysis
+- Archival
+- Deletion
+
 Data analyst: Someone who collects, transforms, and organizes data in order to draw conclusions, make predictions, and drive informed decision-making
 
 Data analytics: The science of data
