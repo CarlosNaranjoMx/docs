@@ -40,7 +40,7 @@ the data analysis process phases are:
 - share ⌂
 - act
 
-Data life cycle: ∞
+Data life cycle phases: ∞
 - Generation
 - Collection
 - Storage
@@ -49,7 +49,7 @@ Data life cycle: ∞
 - Archival
 - Deletion
 
-Data cycle:
+Data cycle stages:
   - Plan: Decide what kind of data is needed, how it will be managed, and who will be responsible for it.
   - Capture: Collect or bring in data from a variety of different sources.
   - Manage: Care for and maintain the data. This includes determining how and where it is stored and the tools used to do so.
