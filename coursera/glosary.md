@@ -33,11 +33,13 @@ Data: A collection of facts
 Data analysis: The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making
 
 the data analysis process phases are: 
-- ask 
+- ask, During the ask phase, data analysts define the problem by looking at the current state and identifying how it’s different from the ideal state.
 - prepare
-- process
-- analyze
-- share ⌂
+- process, a data analysts share insights from their analysis during a formal presentation to stakeholders. In a slideshow, they make a data-driven recommendation  for how to solve a business problem. What phase of the data analysis process would come next ? prepare or process ?
+- analyze, The analyze phase involves using data analytics tools such as spreadsheets and query languages to transform data in order to draw conclusions and make informed decisions. 
+- share ⌂, The share phase involves how results are interpreted and shared with others, often through data visualization. 
+
+
 - act
 
 Data life cycle phases: ∞
