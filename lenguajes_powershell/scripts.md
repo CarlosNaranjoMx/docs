@@ -1,7 +1,7 @@
 
 - [comandos_matriz](#comandos_matriz)
-  - [compare_files](##compare_files_images.ps1.Name)
-  - [convert-ico](##convert-ico)
+  - [compare_files](#compare_files_images.ps1.Name)
+  - [convert-ico](#convert-ico)
 - [copmandos_servicios](#comandos_servicios)
 
 # Comandos matriz
