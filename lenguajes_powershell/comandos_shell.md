@@ -15,7 +15,7 @@
 ~~~powershell
 ~~~
 
-## hardcode rename and move
+## hardcode_rename_and_move
 ~~~powershell
 
 function hard_rename_move {
@@ -38,7 +38,7 @@ function hard_rename_move {
 
 }
 
-  ## renombramiento.ps1.Name
+  ## renombramiento
 
 depende del directorio actual
 
@@ -48,7 +48,7 @@ recibe el nombre destino
 get-location | % {$_.path}
 ~~~
 
-## harcode move
+## harcode_move
 
 ~~~powershell
 function hard_move {
@@ -59,7 +59,7 @@ function hard_move {
 }
 ~~~
 
-## move_files.ps1.Name
+## move_files
 ~~~powershell
 $lista = get-childitem -recurse
 foreach ($item in $lista) {
@@ -72,7 +72,7 @@ foreach ($item in $lista) {
 }
 ~~~
 
-## renombramiento02.ps1.Name
+## renombramiento02
 ~~~powershell
 function act_newname {
   param(
@@ -86,7 +86,7 @@ function act_newname {
   }
 }
 ~~~
-## replace.ps1.Name
+## replace
 ~~~powershell
 
 function replace {
@@ -105,7 +105,7 @@ function replace {
 
 ~~~
 
-  ## files.ps1.Name
+  ## files
   ~~~powershell
   function show-info{
       get-childitem | % { 
@@ -118,7 +118,7 @@ function replace {
   }
   ~~~
 
-  ## az.ps1.Name
+  ## az
   ~~~powershell
   for ($test = 0; $test -lt 26; $test++)
   {
@@ -126,7 +126,7 @@ function replace {
   }
   ~~~
 
-  ## closewindows.ps1.Name
+  ## closewindows
   ~~~powershell
   $a = (New-Object -comObject Shell.Application).Windows() |
    ? { $_.FullName -ne $null} |
