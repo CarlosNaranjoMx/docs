@@ -1,11 +1,11 @@
 
 - [comandos_matriz](#comandos_matriz)
-  -[compare_files](##compare_files_images.ps1.Name)
+  - [compare_files](##compare_files_images.ps1.Name)
 - [copmandos_servicios](#comandos_servicios)
 
 # Comandos matriz
 
-  ## compare_files_images.ps1.Name
+  ## compare_files_images
   ~~~powershell
   function compare-images {
     $list = get-childitem
