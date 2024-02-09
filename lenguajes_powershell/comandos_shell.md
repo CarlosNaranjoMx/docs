@@ -1,4 +1,13 @@
-
+- [comandos_shell](#comandos_shell)
+    - [hardcode](#hardcode)
+    - [renombramiento](#renombramiento)
+    - [harcode](#harcode)
+    - [move_files](#move_files)
+    - [renombramiento02](#renombramiento02)
+    - [replace](#replace)
+    - [files](#files)
+    - [az](#az)
+    - [closewindows](#closewindows)
 
 # comandos_shell
 
