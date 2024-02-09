@@ -1,11 +1,23 @@
 
 - [comandos_matriz](#comandos_matriz)
-  - [compare_files](#compare_files_images.ps1.Name)
-  - [convert-ico](#convert-ico)
-  - [copyphone](#copyphone)
-- [copmandos_servicios](#comandos_servicios)
-
-# Comandos matriz
+    - [compare_files_images](#compare_files_images)
+    - [convert_ico](#convert_ico)
+    - [copyphone](#copyphone)
+- [comandos_servicios](#comandos_servicios)
+    - [electronapp](#electronapp)
+    - [gitliveserver](#gitliveserver)
+    - [js_servidor](#js_servidor)
+    - [laravel](#laravel)
+    - [firefox-web](#firefox-web)
+    - [links2](#links2)
+    - [open](#open)
+    - [php_servidor](#php_servidor)
+    - [plain_text](#plain_text)
+    - [slinks](#slinks)
+    - [sumatra](#sumatra)
+    - [translate](#translate)
+    
+# comandos_matriz
 
   ## compare_files_images
   ~~~powershell
@@ -28,8 +40,7 @@
   }
   ~~~
   
-  ## convert-ico
-  
+  ## convert_ico
   ~~~powershell
   function ConvertTo-Icon
   {
@@ -126,7 +137,7 @@ function copy-phone {
 ~~~
 
 # comandos_servicios
-  ## electronapp.ps1.Name
+  ## electronapp
   ~~~powershell
   function start-electron{
     <#
@@ -138,18 +149,18 @@ function copy-phone {
     }
   }
   ~~~
- ## gitliveserver.ps1.Name
+ ## gitliveserver
   ~~~powershell
   D:
   cd live-server
   git add -A; git commit -m "save commit"; git push origin master;
   ~~~
-  ## js_servidor.ps1.Name
+  ## js_servidor
   ~~~powershell
   cd C:\Users\cnaranjo\Desktop\notas\live-server\live-server;
   live-server
   ~~~
-  ## laravel.ps1.Name
+  ## laravel
   ~~~powershell
   D: ;
   cd \live-server\server_laravel;
@@ -157,7 +168,7 @@ function copy-phone {
   ;
   ~~~
 
-## firefox-web.ps1.Name
+## firefox-web
 ~~~powershell
 funciton search-firefox {
 
@@ -182,12 +193,12 @@ param (
 
 ~~~
 
-## links2.ps1.Name
+## links2
 ~~~powershell
 new-item -itemtype symboliclink -path "C:\Users\cnaranjo\Programs" -target $($args[0]) -name $($args[1])
 ~~~
 
-## open.ps1.Name
+## open
 ~~~powershell
 [CmdletBinding()]
 param (
@@ -207,13 +218,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ~~~
-## php_servidor.ps1.Name
+## php_servidor
 ~~~powershell
 cd C:\Users\cnaranjo\Desktop\notas\live-server\server_laravel;
 php artisan serve;
 ;
 ~~~
-## plain_text.ps1.Name
+## plain_text
 ~~~powershell
 $ps1_files = (get-childitem | ? extension -eq .ps1)
 foreach ($ps1 in $ps1_files) {
@@ -224,7 +235,7 @@ powershell  get-content $ps1
 }
 ~~~
 
-## slinks.ps1.Name
+## slinks
 ~~~powershell
 if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     Start-Process PowerShell -Verb RunAs /
@@ -232,7 +243,7 @@ if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
     exit;
 }
 ~~~
-## sumatra.ps1.Name
+## sumatra
 ~~~powershell
 [CmdletBinding()]
 param (
@@ -244,7 +255,7 @@ param (
 # $file = 'C:\Users\cnaranjo\Desktop\05-libros\Diccionarios\diccionario.pdf'
 Start-process sumatraPdf $file
 ~~~
-## translate.ps1.Name
+## translate
 ~~~powershell
 [system.Diagnostics.Process]::Start("firefox","https://translate.google.com/")
 ~~~
