@@ -2,7 +2,7 @@
 - [comandos_matriz](#comandos_matriz)
   - [compare_files](#compare_files_images.ps1.Name)
   - [convert-ico](#convert-ico)
-  - [copyphone.ps1.Name](#copyphone.ps1.Name)
+  - [copyphone](#copyphone)
 - [copmandos_servicios](#comandos_servicios)
 
 # Comandos matriz
@@ -97,7 +97,7 @@
   }
   ~~~
 
-## copyphone.ps1.Name
+## copyphone
 ~~~powershell
 function copy-phone {
   
