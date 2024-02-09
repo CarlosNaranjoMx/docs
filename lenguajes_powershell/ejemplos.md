@@ -4,7 +4,7 @@ $path_pf = "C:\Program Files"
 echo "path_pf $path_pf"
 ~~~
 
-## Funciones en powershell
+## funciones_en_powershell
 
 - Ejemplo funcion
 ~~~
