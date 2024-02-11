@@ -19,6 +19,8 @@
     
 # comandos_matriz
 
+comentario agregado
+
   ## compare_files_images
   ~~~powershell
   function compare-images {
