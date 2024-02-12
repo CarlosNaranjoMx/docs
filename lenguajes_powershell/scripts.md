@@ -19,7 +19,7 @@
     
 # comandos_matriz
 
-comentario agregado
+otro comentario agregado
 
   ## compare_files_images
   ~~~powershell
