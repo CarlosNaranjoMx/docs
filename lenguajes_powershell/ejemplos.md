@@ -1,3 +1,5 @@
+Ejemplos de todos los posibles comentarios que se pueden añadir a una función de powershell
+
 Añadir variables de directorios al path
 ~~~
 $path_pf = "C:\Program Files"
