@@ -1,26 +1,34 @@
 # Documentación de Algunas de las aplicaciones
+
 ~~~
 git add -A; git commit -m "Modificando readme";git push origin main
 ~~~
-- [aplicaciones](aplicaciones/indice.md)
-- [app_flex](app_flex/indice.md)
-- [app_git](app_git/indice.md)
-- [app_jhipster](app_jhipster/indice.md)
-- [app_krita](app_krita/indice.md)
-- [comandos](comandos/indice.md)
-- [conacyt](conacyt/indice.md)
-- [docker](docker/indice.md)
-- [editores-vscode](editores-vscode/indice.md)
-- [issues](issues.md/indice.md)
-- [issuesprogramacion](issuesprogramacion.md/indice.md)
-- [lenguages](lenguages/indice.md)
-- [lenguajes_java](lenguajes_java/indice.md)
-- [lenguajes_powershell](lenguajes_powershell/indice.md)
-- [lenguajes_python](lenguajes_python/indice.md)
-- [linux](linux/indice.md)
-- [materias](materias/indice.md)
-- [otras_ideas](otras_ideas/indice.md)
-- [programacion](programacion/indice.md)
-- [programacion_hackerrank](programacion_hackerrank/indice.md)
-- [README](README.md/indice.md)
-- [servicios_keycloak](servicios_keycloak/indice.md)
+
+- [aplicaciones](aplicaciones/indice.md) — Manuales y guías de aplicaciones generales.
+- [app_flex](app_flex/indice.md) — Recursos y notas sobre Flex.
+- [app_git](app_git/indice.md) — Comandos y flujos de trabajo con Git.
+- [app_jhipster](app_jhipster/indice.md) — Documentación sobre JHipster.
+- [app_keycloack](app_keycloack/indice.md) — Configuración y uso de Keycloak.
+- [app_krita](app_krita/indice.md) — Notas sobre la aplicación de dibujo Krita.
+- [app_postgres](app_postgres/indice.md) — Guías y comandos para PostgreSQL.
+- [app_windows](app_windows/indice.md) — Trucos y configuraciones para Windows.
+- [comandos](comandos/indice.md) — Colección de comandos útiles de consola.
+- [conacyt](conacyt/indice.md) — Información y trámites relacionados con CONACYT.
+- [coursera](coursera/indice.md) — Notas y recursos de cursos de Coursera.
+- [docker](docker/indice.md) — Guías y ejemplos de uso de Docker.
+- [editores-vscode](editores-vscode/indice.md) — Configuración y extensiones para VS Code.
+- [issues.md](issues.md) — Registro de problemas y soluciones generales.
+- [issuesprogramacion.md](issuesprogramacion.md) — Problemas y soluciones de programación.
+- [lenguages](lenguages/indice.md) — Recursos sobre diferentes lenguajes de programación.
+- [lenguajes_java](lenguajes_java/indice.md) — Notas y ejemplos de Java.
+- [lenguajes_md](lenguajes_md/indice.md) — Ejemplos y sintaxis de Markdown.
+- [lenguajes_powershell](lenguajes_powershell/indice.md) — Scripts y comandos de PowerShell.
+- [lenguajes_python](lenguajes_python/indice.md) — Ejemplos y recursos de Python.
+- [linux](linux/indice.md) — Comandos y configuraciones para Linux.
+- [materias](materias/indice.md) — Apuntes y materiales de distintas materias.
+- [otras_ideas](otras_ideas/indice.md) — Ideas y proyectos varios.
+- [patrones_diseño](patrones_diseño/indice.md) — Ejemplos de patrones de diseño de software.
+- [programacion](programacion/indice.md) — Conceptos y ejemplos de programación.
+- [programacion_hackerrank](programacion_hackerrank/indice.md) — Soluciones a ejercicios de HackerRank.
+- [resourses_github](resourses_github/indice.md) — Recursos y utilidades para GitHub.
+- [servicios_keycloak](servicios_keycloak/indice.md) — Servicios y configuraciones avanzadas de Keycloak.
