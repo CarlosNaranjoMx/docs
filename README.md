@@ -1,8 +1,6 @@
 # Documentación de Algunas de las aplicaciones
 
-~~~
-git add -A; git commit -m "Modificando readme";git push origin main
-~~~
+Este repositorio contiene apuntes, manuales, guías y recursos sobre aplicaciones, lenguajes de programación, herramientas, sistemas operativos y temas de tecnología que he recopilado y organizado para consulta personal y de la comunidad.
 
 - [aplicaciones](aplicaciones/indice.md) — Manuales y guías de aplicaciones generales.
 - [app_flex](app_flex/indice.md) — Recursos y notas sobre Flex.
