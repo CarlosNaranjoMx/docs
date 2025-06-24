@@ -11,7 +11,7 @@ Este repositorio contiene apuntes, manuales, guías y recursos sobre aplicacione
 - [app_postgres](app_postgres/indice.md) — Guías y comandos para PostgreSQL.
 - [app_windows](app_windows/indice.md) — Trucos y configuraciones para Windows.
 - [comandos](comandos/indice.md) — Colección de comandos útiles de consola.
-- [conahcyt](conahcyt/indice.md) — Información y trámites relacionados con CONAHCYT.
+- [jhipster](jhipster/indice.md) — Información y recursos sobre JHipster.
 - [coursera](coursera/indice.md) — Notas y recursos de cursos de Coursera.
 - [docker](docker/indice.md) — Guías y ejemplos de uso de Docker.
 - [editores-vscode](editores-vscode/indice.md) — Configuración y extensiones para VS Code.
